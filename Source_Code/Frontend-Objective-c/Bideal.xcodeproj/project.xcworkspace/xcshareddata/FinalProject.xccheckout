@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>063DA5FA-1710-4D05-8ACF-2BB97BCCD225</string>
+	<key>IDESourceControlProjectName</key>
+	<string>FinalProject</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>4514366285CF01BF7AF9D1A633E479A5809460EF</key>
+		<string>https://github.com/zljchloe/Cloud-DynamicPricing.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>FinalProject/FinalProject.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>4514366285CF01BF7AF9D1A633E479A5809460EF</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/zljchloe/Cloud-DynamicPricing.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>4514366285CF01BF7AF9D1A633E479A5809460EF</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>4514366285CF01BF7AF9D1A633E479A5809460EF</string>
+			<key>IDESourceControlWCCName</key>
+			<string>finalproject</string>
+		</dict>
+	</array>
+</dict>
+</plist>

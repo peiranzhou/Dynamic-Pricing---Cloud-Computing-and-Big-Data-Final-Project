@@ -1,0 +1,62 @@
+The backend server provide  the front end several interface to communicate.
+All these interface are http end points, and front end reach these end points through http get.
+ All the status code below refers to http status code
+
+1.sign up interface:
+End point:  /signup
+Parameters : username and  password, email
+If the server has internal failure, it will response with status code 500;
+If the  username has been used, it will response with status code 406;
+Otherwise, everything is OK, and will response with status code 202.
+
+2.log in interface:
+End point: /login
+Parameters: username and  password
+If the server has internal failure, it will response with status code 500;
+If the  username  and password is not correct, it will response with status code 406;
+Otherwise, everything is OK, and will response with status code 202.
+
+3.profile interface:
+End point: /profile
+Parameters:  username
+If the server has internal failure, it will response with status code 500;
+Otherwise, it will response with the profile: all the user transaction history.
+
+4.scan interface:
+End point: /scan
+Parameters: barcode, businessname
+After the front end scan the barcode, it should call this end point.
+If the server has internal failure, it will response with status code 500;
+If the item is not under dynamic pricing, it will response with status code 406
+Otherwise it will response with the status code is 200.
+
+5.bid interface:
+End point: /bid
+Parameters: barcode, username, businessname
+We the front end begin to bid price, it query this end point tot obtain the lowest expected price of the merchant and the description of the product.
+If the server has internal failure, it will response with status code 500;
+If the user is ineligible for this item (the user has bid it before ), it will response with status code 403
+Otherwise it will response with the item name, item description and its price, and the status code is 200.
+
+
+6.transaction interface:
+End point: /transaction
+Parameters: barcode, username, businessname, bid_price
+bid_price pass 0 value, if the transaction fails.
+After the user successfully bid the product, the front end should call the end point.
+If the server has internal failure, it will response with status code 500;
+Otherwise, everything is OK, it will response with  status code 200.
+
+7.forget password interface:
+End point: /forgetPassword
+Parameters: username, email
+If the server has internal failure, it will response with status code 500;
+If the username and email is not match, it will response with status code 406;
+Otherwise if everything is OK, it will send the password to the email and response with status code 200.
+
+8.reset password interface:
+END point: /resetPassword
+Parameters: username oldpassword newpassword
+If the server has internal failure, it will response with status code 500;
+If the username and oldpassword is not correct, it will response with status code 406;
+Otherwise if everythig is OK, it will  update the oldpassword by the newpassword and response with status code 202.

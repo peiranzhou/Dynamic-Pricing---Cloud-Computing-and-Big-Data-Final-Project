@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14F1605" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+    </dependencies>
+    <scenes>
+        <!--bid-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController title="bid" id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="fCU-fG-MrA">
+                                <rect key="frame" x="145" y="185" width="185" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Good information:" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="s1y-Y1-zIn">
+                                <rect key="frame" x="26" y="53" width="322" height="75"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Bid price:" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="2gI-12-70f">
+                                <rect key="frame" x="45" y="183" width="81" height="34"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="eNV-hH-pHO">
+                                <rect key="frame" x="74" y="257" width="97" height="30"/>
+                                <color key="backgroundColor" red="0.84053424870000004" green="0.84053424870000004" blue="0.84053424870000004" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="aun-Uf-FCl">
+                                <rect key="frame" x="216" y="258" width="97" height="30"/>
+                                <color key="backgroundColor" red="0.84053424870000004" green="0.84053424870000004" blue="0.84053424870000004" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qzS-F4-YXS">
+                                <rect key="frame" x="237" y="258.5" width="54" height="27.5"/>
+                                <state key="normal" title="Reset">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                            </button>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Check Online Price" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="UEc-6L-49h">
+                                <rect key="frame" x="117" y="368" width="141" height="35"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="0.59999999999999998" colorSpace="calibratedRGB"/>
+                                <color key="tintColor" red="0.030441130050505083" green="0.030441130050505083" blue="0.030441130050505083" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="amazonpic.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="GeI-hj-oT1">
+                                <rect key="frame" x="26" y="447" width="131" height="122"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="The-new-eBay-logo.png" translatesAutoresizingMaskIntoConstraints="NO" id="O76-fc-a1C">
+                                <rect key="frame" x="185" y="430" width="158" height="169"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QH6-d9-Kbj">
+                                <rect key="frame" x="35" y="447" width="113" height="113"/>
+                                <connections>
+                                    <segue destination="sBz-PM-khv" kind="show" id="QwM-RX-JMP"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="F5D-SO-Zhi">
+                                <rect key="frame" x="190" y="437" width="148" height="119"/>
+                                <connections>
+                                    <segue destination="s9c-1P-HOx" kind="show" id="uQH-cd-iDM"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wOI-Zt-Fxo">
+                                <rect key="frame" x="95" y="257" width="55" height="30"/>
+                                <state key="normal" title="Confirm">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <toolbarItems>
+                        <barButtonItem title="Contact Us" width="349" id="gW0-o6-3D1">
+                            <color key="tintColor" red="0.030441130050000001" green="0.030441130050000001" blue="0.030441130050000001" alpha="1" colorSpace="calibratedRGB"/>
+                        </barButtonItem>
+                    </toolbarItems>
+                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="189.5" y="312.5"/>
+        </scene>
+        <!--ebay-->
+        <scene sceneID="HeT-Sq-JbJ">
+            <objects>
+                <viewController title="ebay" id="s9c-1P-HOx" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="6ks-JE-o1R"/>
+                        <viewControllerLayoutGuide type="bottom" id="fok-br-61o"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="top" id="3Yz-ks-kdi">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <webView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="6Ll-dZ-FV8">
+                                <rect key="frame" x="0.0" y="107" width="375" height="510"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </webView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Ebay Online Price" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="XaW-D0-Aix">
+                                <rect key="frame" x="72" y="53" width="231" height="38.5"/>
+                                <fontDescription key="fontDescription" name="Palatino-Roman" family="Palatino" pointSize="20"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <toolbarItems>
+                        <barButtonItem title="Back to Bid" width="355" id="ArE-zi-7wC">
+                            <connections>
+                                <segue destination="BYZ-38-t0r" kind="show" id="nIo-Ng-s6r"/>
+                            </connections>
+                        </barButtonItem>
+                    </toolbarItems>
+                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="PTm-XA-XwO" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1116.5" y="312.5"/>
+        </scene>
+        <!--success-->
+        <scene sceneID="qZP-FX-7bb">
+            <objects>
+                <viewController title="success" id="cUx-mx-XA5" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="0FW-Bw-Mw1"/>
+                        <viewControllerLayoutGuide type="bottom" id="u3O-1T-PTA"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="R5N-Ot-84W">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Your payment of &lt;$0.0&gt; to &lt;item ID&gt; has been processed successfully." textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="Qa1-AP-01O">
+                                <rect key="frame" x="20" y="319" width="345" height="51"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="A confirmation email will be sent to you shortly." textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="Hr1-50-S5t">
+                                <rect key="frame" x="20" y="364" width="345" height="51"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="images.png" translatesAutoresizingMaskIntoConstraints="NO" id="6Fe-HE-vuL">
+                                <rect key="frame" x="108" y="147" width="158" height="158"/>
+                            </imageView>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="yQf-bf-8D8">
+                                <rect key="frame" x="112" y="445" width="150" height="30"/>
+                                <color key="backgroundColor" red="0.84053424870000004" green="0.84053424870000004" blue="0.84053424870000004" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="m1a-UT-0yC">
+                                <rect key="frame" x="122" y="444" width="131" height="30"/>
+                                <state key="normal" title="Back to Homepage">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Congratulations!" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="LUh-d5-aeh">
+                                <rect key="frame" x="67" y="38" width="240" height="42"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Bid successful!" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="1pf-2G-gTC">
+                                <rect key="frame" x="67" y="81" width="240" height="52"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="w86-7U-xvr" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1528.5" y="312.5"/>
+        </scene>
+        <!--amazon-->
+        <scene sceneID="iJz-SR-hPs">
+            <objects>
+                <viewController title="amazon" id="sBz-PM-khv" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Cl1-Rg-0Mc"/>
+                        <viewControllerLayoutGuide type="bottom" id="3IG-Hh-ar8"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="top" id="uOF-nU-15R">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <webView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="J3M-mM-tfZ">
+                                <rect key="frame" x="0.0" y="106" width="375" height="511"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </webView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Amazon Online Price" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="kCr-eY-ODY">
+                                <rect key="frame" x="72" y="53" width="231" height="36"/>
+                                <fontDescription key="fontDescription" name="Palatino-Roman" family="Palatino" pointSize="20"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <toolbarItems>
+                        <barButtonItem title="Back to Bid" width="355" id="RDz-Wj-kjb">
+                            <connections>
+                                <segue destination="BYZ-38-t0r" kind="show" id="CTs-OQ-vuc"/>
+                            </connections>
+                        </barButtonItem>
+                    </toolbarItems>
+                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="cZh-wC-mhT" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="722.5" y="312.5"/>
+        </scene>
+        <!--fail-->
+        <scene sceneID="ZIn-Ah-D7z">
+            <objects>
+                <viewController title="fail" id="R7c-2n-qdT" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="xOP-eQ-gMe"/>
+                        <viewControllerLayoutGuide type="bottom" id="Thn-GM-zcf"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="rsH-Ss-NTY">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Bid will success only when your price is higher than the lowest bound. " textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="GIN-58-jHO">
+                                <rect key="frame" x="20" y="289" width="345" height="66.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text=" &lt; &gt; chance remain. Please try agian." textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="cbC-Pv-gNR">
+                                <rect key="frame" x="20" y="372" width="345" height="51"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="You totally have three chances for an item." textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="VNg-3L-phf">
+                                <rect key="frame" x="20" y="347" width="345" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="fail.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="GNO-85-1XZ">
+                                <rect key="frame" x="77" y="162" width="217" height="92"/>
+                            </imageView>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="uDo-eo-Vis">
+                                <rect key="frame" x="41" y="454" width="124" height="30"/>
+                                <color key="backgroundColor" red="0.84053424870000004" green="0.84053424870000004" blue="0.84053424870000004" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XQQ-39-tBS">
+                                <rect key="frame" x="71" y="454" width="64" height="30"/>
+                                <state key="normal" title="Bid again">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="show" id="Pbh-5W-xaP"/>
+                                </connections>
+                            </button>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Byw-2C-hLq">
+                                <rect key="frame" x="198" y="454" width="124" height="30"/>
+                                <color key="backgroundColor" red="0.84053424870000004" green="0.84053424870000004" blue="0.84053424870000004" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QAl-p3-UlL">
+                                <rect key="frame" x="234" y="454" width="52" height="30"/>
+                                <state key="normal" title="Give up">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Fail to bid, try again!" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="Eiq-R3-BYU">
+                                <rect key="frame" x="43" y="84" width="288" height="55"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Opps! " textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="Uuu-dZ-C6E">
+                                <rect key="frame" x="69" y="38" width="236" height="49"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Xlc-KZ-FIW" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1945.5" y="312.5"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="The-new-eBay-logo.png" width="718" height="718"/>
+        <image name="amazonpic.jpg" width="200" height="200"/>
+        <image name="fail.jpg" width="218" height="98"/>
+        <image name="images.png" width="225" height="225"/>
+    </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="Pbh-5W-xaP"/>
+    </inferredMetricsTieBreakers>
+</document>

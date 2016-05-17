@@ -1,0 +1,25 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zljchloe/Cloud-DynamicPricing.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zljchloe/Cloud-DynamicPricing/issues"
+  },
+  "homepage": "https://github.com/zljchloe/Cloud-DynamicPricing#readme",
+  "dependencies": {
+    "express": "^4.13.4",
+    "nodemailer": "^2.3.2",
+    "qr-image": "^3.1.0"
+  }
+}
